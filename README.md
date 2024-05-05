@@ -36,12 +36,12 @@ Use RedisInsight http://localhost:8001
 - Using RedisJSON one can use JSONPath to read/write sub element
 - Using RedisJSON one can use RediSearch to index & query and use RedisOM or Spring Data Redis with repositories for full object mapping.
 - Despite all the complexity in the API added by Redisson
--- It still requires serialization
--- There are no simple auto magic default
--- If using Java serialization, it is opaque and cannot be read easily
--- If using Redisson RBucket to store JSON, it stores as a String blob with no direct read/write or merge capability
--- If using Redisson RBucket to store JSON, it has no support for nested arrays in JSON
--- If using Redisson RMap, it requires boilerplate code to serialize from Object to JSON to Map
+    - It still requires serialization
+    - There are no simple auto magic default
+    - If using Java serialization, it is opaque and cannot be read easily
+    - If using Redisson RBucket to store JSON, it stores as a String blob with no direct read/write or merge capability
+    - If using Redisson RBucket to store JSON, it has no support for nested arrays in JSON
+    - If using Redisson RMap, it requires boilerplate code to serialize from Object to JSON to Map
 
 ## Code in action
 
