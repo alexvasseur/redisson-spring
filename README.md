@@ -35,6 +35,12 @@ Use RedisInsight http://localhost:8001
 - Simple to code and understand Java Object to JSON
 - Using RedisJSON one can use JSONPath to read/write sub element
 - Using RedisJSON one can use RediSearch to index & query and use RedisOM or Spring Data Redis with repositories for full object mapping.
+
+See those other projects for example
+- https://github.com/alexvasseur/redis-jedis-spring/blob/main/src/main/java/com/example/rsapidemo/controller/EmployeeController.java
+- https://redis.io/learn/develop/java/spring/redis-om/redis-om-spring
+
+
 - Despite all the complexity in the API added by Redisson
     - It still requires serialization
     - There are no simple auto magic default
