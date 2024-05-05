@@ -51,6 +51,25 @@ See those other projects for example
 
 ## Code in action
 
-TODO add code and how data looks like
+RedisJSON native JSON - simple code and simple & optimzized data access
+![RedisJSON](img/1-redisjsoncode.png?raw=true)
+![RedisJSON](img/2-redisjsondata.png?raw=true)
 
+and compared to any of the below with Redisson...
+
+Redisson - no good default serialization
+![Redisson](img/3-redisson.png?raw=true)
+![Redisson](img/4-data.png?raw=true)
+
+Redisson - opque Java serialization
+![Redisson](img/5-redissonserial.png?raw=true)
+![Redisson](img/6-data.png?raw=true)
+
+Redisson - non optimal JSON, lack support for nested array and stores as a blob String
+![Redisson](img/7-redissonjson.png?raw=true)
+![Redisson](img/8-data.png?raw=true)
+
+Redisson - boilerplate code for storing in the typical Redis hash
+![Redisson](img/9-redissonmap.png?raw=true)
+![Redisson](img/10-data.png?raw=true)
 
